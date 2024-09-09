@@ -9,6 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "ZDefendSDK",
+            type: .static,
             targets: ["ZDefendSDK"]
         )
     ],
